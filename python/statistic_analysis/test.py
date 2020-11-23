@@ -21,7 +21,7 @@ team_schedule_link = []
 team_record_link = []
 
 for team in bsObject.find_all(attrs={'class':'cont_item'}):
-    #print(cover)
+    
     # print(cover.find('strong').text) #Team Name
     # print(cover.find('a',text='일정').get('href'))
     # print(cover.find('a',text='선수').get('href'))
@@ -50,7 +50,6 @@ for player in team_player_link :
         print(player.find('strong').text) #선수이름
 
 #    for player in forward.find_all('li') :
-#         print(player.find('strong').text)
     
     # print(meta_data)
     # print(cover.find(attrs={'class':'tit_thumb'}))
